@@ -10,6 +10,86 @@ body {
     align-items: center;
     justify-content: center;
     margin: 0 auto;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
     padding: 0;
     width: 100%;
+    text-align: center;
+    color: rgb(85, 26, 139);
+}
+main {
+    flex: 1 0 auto;
+}
+ul {
+    list-style: none;
+}
+li {
+    display: inline-block;
+    padding: 0 20px;
+}
+a{
+    text-decoration: none;
+    padding-bottom: 0.05rem;
+    font-size: 1.1rem;
+}
+
+a:visited {
+    color: purple;
+    text-decoration: none;
+}
+a:hover {
+    border-bottom: 2px solid rgb(85, 26, 139);
+    -webkit-transition: .3s all ease;
+    transition: .3s all ease;
+}
+a:active {
+    border-bottom: 2px solid rgb(85, 26, 139);
+}
+a:focus {
+    color: black;
+    border-bottom: 2px solid black;
+}
+.navbar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.social {
+    padding: 0 20px;
+}
+.feather:hover {
+    fill: rgb(85, 26, 139);
+}
+#logo {
+    text-align: center;
+    border: 3px solid rgb(85, 26, 139);
+    padding: 0.5rem;
+    text-decoration: none;
+}
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem;
+}
+.hero {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.intro {
+    width: 30%;
+    margin: 10rem;
+}
+.image {
+    width: 70%;
+}
+.btn {
+    padding: 0.3rem 2.5rem;
+    font-size: 1.2rem;
+    border-radius: 50px;
 }
