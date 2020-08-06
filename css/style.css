@@ -80,6 +80,10 @@ a:focus {
     align-items: center;
     justify-content: center;
     width: 100%;
+    height: 100vh;
+}
+h1 {
+    font-size: 3rem;
 }
 .intro {
     width: 30%;
@@ -92,4 +96,14 @@ a:focus {
     padding: 0.3rem 2.5rem;
     font-size: 1.2rem;
     border-radius: 50px;
+    background-color: rgb(85, 26, 139);
+    color: #ffffff;
+    border: none;
+    outline: none;
+}
+.btn:hover {
+    background-color: rgba(85, 26, 139, 90%);
+}
+.btn:focus {
+    background-color: black;
 }
