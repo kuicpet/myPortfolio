@@ -68,3 +68,10 @@ h1 {
     outline: none;
     border-radius: 50px;
 }
+.btn:hover {
+    background-color: #0A2472;
+    transition: 0.3s all ease;
+}
+.btn:focus {
+    background-color: #00072D;
+}
