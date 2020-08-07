@@ -23,6 +23,7 @@ body {
     padding: 0;
     width: 100%;
     text-align: center;
+    line-height: 1.5;
 }
 main {
     flex: 1 0 auto;
@@ -48,4 +49,22 @@ main {
     align-items: center;
     justify-content: center;
     min-height: 100vh;
+}
+h1 {
+    font-size: 3rem;
+    color: #001C55;
+    font-weight: 400;
+}
+.intro p {
+    font-size: 1.3rem;
+    color: #001C55;
+}
+.intro .btn {
+    font-size: 1.3rem;
+    padding: 0.3rem 2rem;
+    background-color: #0E6BA8;
+    color: #ffffff;
+    border: none;
+    outline: none;
+    border-radius: 50px;
 }
