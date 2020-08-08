@@ -84,15 +84,7 @@ h1 {
 .btn:focus {
     background-color: #00072D;
 }
-.about {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: right;
-    max-width: 50%;
-    text-align: center;
-    padding: 14rem 5rem;
-}
+
 .background {
     align-items: center;
     justify-content: center;
@@ -215,7 +207,7 @@ img {
     color: #ffffff;
     text-align: right;
 }
-@media screen and (max-width: 400px){
+@media screen and (max-width: 480px){
    body {
        background-image: none;
        margin: 0 auto;
@@ -250,14 +242,26 @@ img {
        font-size: 1rem;
    }
 }
-@media screen and (min-width: 750px) and (max-width: 1024px){
+@media screen and (min-width: 760px) and (max-width: 1024px){
     .about {
         max-width: 85%;
         text-align: justify;
+        margin: 1rem;
     }
 }
 @media screen and (orientation:landscape){
     .about {
         max-width: 65%;
+    }
+}
+@media screen and (min-width: 1025px){
+    .about {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: right;
+        max-width: 50%;
+        text-align: center;
+        
     }
 }
