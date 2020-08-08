@@ -256,3 +256,8 @@ img {
         text-align: justify;
     }
 }
+@media screen and (orientation:landscape){
+    .about {
+        max-width: 65%;
+    }
+}
