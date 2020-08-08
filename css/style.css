@@ -123,6 +123,7 @@ img {
     color: #A6E1FA;
     padding: 0.3rem 3rem;
     border: 2px solid #0E6BA8;
+    margin-top: 6rem;
 }
 .projects {
    display: flex;
