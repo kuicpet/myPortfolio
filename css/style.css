@@ -21,7 +21,7 @@ body {
     font-family: 'Montserrat', sans-serif;
     font-size: 1rem;
     padding: 0;
-    width: 100%;
+    max-width: 100%;
     text-align: center;
     line-height: 1.5;
     background-image: url(./images/kuic_jxb4la-removebg-preview.png);
@@ -41,7 +41,7 @@ main {
     background-color: #A6E1FA;
     display: flex;
     flex-direction: column;
-    position: fixed;
+    
     top: 0;
     align-items: center;
     justify-content: center;
@@ -126,10 +126,12 @@ img {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     background-color: #00072D;
     opacity: 0.9;
-    margin: 0;
-    padding: 1rem 0;
+    margin: 0 auto;
+    padding: 0;
+    width: 100%;
 }
 .portfolio h2 {
     color: #A6E1FA;
@@ -137,17 +139,8 @@ img {
     border: 2px solid #0E6BA8;
     margin-top: 6rem;
 }
-.projects {
-  display: grid;
-  grid-template-columns: repeat(5, 1fr);
-}
-.card {
-    width: 10rem;
-    height: 10rem;
-    background-color: #A6E1FA;
-    margin: 1rem;
-    border-radius: 0.5rem;
-}
+
+
 .links {
     padding-top: 2rem;
 }
@@ -185,6 +178,7 @@ img {
 #contact {
     background-color: #001C55;
     opacity: 0.9;
+    width: 100%;
 }
 .contact h3 {
     font-weight: 100;
@@ -219,6 +213,24 @@ img {
     color: #ffffff;
     text-align: right;
 }
-@media screen and (min-width: 750px){
-   
+@media screen and (max-width: 400px){
+   body {
+       background-image: none;
+       margin: 0 auto;
+       padding: 0;
+   }
+   .header {
+       max-width: 100%;
+       margin: 0;
+       position: none;
+   }
+   .hero {
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       justify-content: center;
+       padding: 0;
+       margin: 0 auto;
+       width: 100%;
+   }
 }
