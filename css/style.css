@@ -136,41 +136,33 @@ img {
     color: #A6E1FA;
     padding: 0.3rem 3rem;
     border: 2px solid #0E6BA8;
-    margin-bottom: 4rem;
+    margin-bottom: 14rem;
 }
 .projects {
     display: flex;
     align-items: center;
     justify-content: center;
 }
-.links {
-    padding-top: 2rem;
-}
 .skills h3 {
     color: #0E6BA8;
-    margin: 1rem auto;
+    margin-top: 2rem;
+    margin-bottom: 0.5rem;
     text-align: left;
     font-weight:300;
 }
-.links ul {
-    display: flex;
-    list-style: none;
-    color: #ffffff;
-}
-.link a {
-    margin: 1rem;
-    background-color: #0E6BA8;
+.skills a {
+    background-color: #EBEBFF;
     padding: 0.5rem 1rem;
     font-size: 0.8rem;
-    border-radius: 0.3rem;
+    border-radius: 1.5rem;
     text-decoration: none;
-    color: #A6E1FA;
-}
-.link a:visited {
     color: #00072D;
 }
-.link a:hover {
-    opacity: 0.8;
+.skills a:visited {
+    color: #0A2472;
+}
+.skills a:hover {
+    background-color: #0A2472;
     color: #ffffff;
 }
 .link a:focus {
