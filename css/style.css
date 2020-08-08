@@ -146,11 +146,11 @@ img {
 .links {
     padding-top: 2rem;
 }
-.links h3 {
-    color: #00072D;
-    margin: 0 auto;
+.skills h3 {
+    color: #0E6BA8;
+    margin: 1rem auto;
     text-align: left;
-    font-weight: 200;
+    font-weight:300;
 }
 .links ul {
     display: flex;
