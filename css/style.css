@@ -197,3 +197,10 @@ img {
     fill: #A6E1FA;
     color: #A6E1FA;
 }
+.footer {
+    background-color: #0A2472;
+    width: 100%;
+    padding: 1.5rem;
+    color: #ffffff;
+    text-align: right;
+}
