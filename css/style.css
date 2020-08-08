@@ -180,3 +180,13 @@ img {
     margin: 0;
     padding: 2rem;
 }
+.contact a {
+    text-decoration: none;
+    color: #0E6BA8;
+}
+.contact a:visited {
+    color: #A6E1FA;
+}
+.contact a:hover {
+    color: #ffffff;
+}
