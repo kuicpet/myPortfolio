@@ -116,6 +116,7 @@ img {
     align-items: center;
     background-color: #00072D;
     margin: 0;
+    padding: 1rem 0;
 }
 .portfolio h2 {
     color: #A6E1FA;
@@ -147,7 +148,7 @@ img {
     justify-content: center;
     list-style: none;
     color: #ffffff;
-    z-index: 100;
+    padding: 2rem;
 }
 .link a {
     margin: 1rem;
@@ -168,4 +169,12 @@ img {
 .link a:focus {
     background-color: #ffffff;
     color: #00072D;
+}
+#contact {
+    background-color: #001C55;
+}
+.contact h3 {
+    font-weight: 100;
+    font-size: 1.5rem;
+    color: #0A2472;
 }
