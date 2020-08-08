@@ -190,3 +190,10 @@ img {
 .contact a:hover {
     color: #ffffff;
 }
+.contact .feather {
+    margin: 1rem;
+}
+.feather:hover {
+    fill: #A6E1FA;
+    color: #A6E1FA;
+}
