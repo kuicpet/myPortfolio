@@ -117,6 +117,7 @@ img {
     background-color: #00072D;
     margin: 0;
     padding: 1rem 0;
+    min-height: 100vh;
 }
 .portfolio h2 {
     color: #A6E1FA;
