@@ -125,12 +125,13 @@ img {
     color: #A6E1FA;
     padding: 0.3rem 3rem;
     border: 2px solid #0E6BA8;
-    margin-bottom: 1rem;
+    margin-bottom: 0;
 }
 .projects {
     display: flex;
     align-items: center;
     justify-content: center;
+    padding: 1.5rem;
 }
 .projects a {
     background-color: #0E6BA8;
