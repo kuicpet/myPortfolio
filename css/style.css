@@ -81,7 +81,7 @@ h1 {
     background-color: #0A2472;
     transition: 0.3s all ease;
 }
-.btn:focus {
+.btn:active {
     background-color: #00072D;
 }
 .about {
@@ -106,18 +106,7 @@ h1 {
     text-align: justify;
     color: #00072D;
 }
-.interest h3,.hobby h3 {
-    text-align: left;
-    color: #0E6BA8;
-    font-weight: 200;
-    margin: 0;
-    font-size: 1rem;
-}
-.interest p,.hobby p {
-    text-align: left;
-    margin: 0;
-    font-size: 0.9rem;
-}
+
 img {
     width: 100%;
 }
@@ -136,36 +125,59 @@ img {
     color: #A6E1FA;
     padding: 0.3rem 3rem;
     border: 2px solid #0E6BA8;
-    margin-bottom: 14rem;
+    margin-bottom: 1rem;
 }
 .projects {
     display: flex;
     align-items: center;
     justify-content: center;
 }
-.skills h3 {
+.projects a {
+    background-color: #0E6BA8;
+    padding: 0.2rem 1rem;
+    font-size: 0.8rem;
+    border-radius: 1.5rem;
+    text-decoration: none;
+    color: #ffffff;
+    cursor: pointer;
+    margin: 0.3rem;
+}
+.projects a:visited {
+    color: #A6E1FA;
+}
+.projects a:hover {
+    background-color: #A6E1FA;
+    color: #00072D;
+}
+.projects a:active {
+    background: black;
+    color: #ffffff;
+}
+.skills h3,.certification h3, .interest h3, .hobby h3 {
     color: #0E6BA8;
     margin-top: 2rem;
     margin-bottom: 0.5rem;
     text-align: left;
     font-weight:300;
 }
-.skills a {
+.skills a, .certification a,.interest a, .hobby a {
     background-color: #EBEBFF;
-    padding: 0.5rem 1rem;
+    padding: 0.5rem;
     font-size: 0.8rem;
     border-radius: 1.5rem;
     text-decoration: none;
     color: #00072D;
+    cursor: pointer;
+    flex: 1 0 auto;
 }
-.skills a:visited {
+.skills a:visited, .certification a:visited, .interest a:visited, .hobby a:visited {
     color: #0A2472;
 }
-.skills a:hover {
+.skills a:hover, .certification a:hover, .interest a:hover, .hobby a:hover {
     background-color: #0A2472;
     color: #ffffff;
 }
-.link a:focus {
+.link a:active, .certification a:active, .interest a:active, .hobby a:active {
     background-color: #ffffff;
     color: #00072D;
 }
@@ -207,7 +219,7 @@ img {
     color: #ffffff;
     text-align: right;
 }
-@media screen and (max-width: 480px){
+@media only screen and (max-width: 480px){
    body {
        background-image: none;
        margin: 0 auto;
@@ -241,6 +253,14 @@ img {
    .intro p {
        font-size: 1rem;
    }
+   .skills, .certification, .interest, .hobby, .projects{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
 }
 @media screen and (min-width: 760px) and (max-width: 1024px){
     .about {
