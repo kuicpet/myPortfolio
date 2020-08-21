@@ -212,6 +212,7 @@ img {
     margin: 1rem;
 }
 .feather:hover {
+    stroke: none;
     fill: #A6E1FA;
     color: #A6E1FA;
     transition: 3s all ease;
