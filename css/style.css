@@ -269,6 +269,9 @@ img {
     .skills a, .certification a,.interest a, .hobby a{
         margin: 0.2rem;
     }
+    .footer {
+        text-align: center;
+    }
 }
 @media screen and (min-width: 760px) and (max-width: 1024px){
     .about {
