@@ -56,7 +56,7 @@ main {
 .hero {
     display: flex;
     align-items: center;
-    justify-content: right;
+    justify-content: left;
     padding: 18rem 10rem;
 }
 h1 {
