@@ -79,7 +79,7 @@ h1 {
 }
 .btn:hover {
     background-color: #0A2472;
-    transition: 0.3s all ease;
+    transition: all 0.3s ease;
 }
 .btn:active {
     background-color: #00072D;
@@ -162,7 +162,7 @@ img {
     font-weight:300;
 }
 .skills a, .certification a,.interest a, .hobby a {
-    background-color: #EBEBFF;
+    background-color: #EBEBFF59;
     padding: 0.5rem 1.2rem;
     margin: 0;
     font-size: 0.8rem;
@@ -181,6 +181,7 @@ img {
 .skills a:hover, .certification a:hover, .interest a:hover, .hobby a:hover {
     background-color: #0A2472;
     color: #ffffff;
+    transition: all 0.3s ease;
 }
 .link a:active, .certification a:active, .interest a:active, .hobby a:active {
     background-color: #ffffff;
@@ -215,7 +216,7 @@ img {
     stroke: none;
     fill: #A6E1FA;
     color: #A6E1FA;
-    transition: 3s all ease;
+    transition: all 0.3s ease;
 }
 .footer {
     background-color: #0A2472;
