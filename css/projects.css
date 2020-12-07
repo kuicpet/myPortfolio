@@ -77,8 +77,22 @@ hr {
 .image {
     width: 30%;
 }
-.image svg {
-    background-color: #0E6BA8;
+.icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem;
+    height: 4rem;
+    width: 4rem;
+    border-radius: 50%;
+    color: #0A2472;
+    background-color: rgba(0, 0, 0, 0.05);
+}
+b {
+    color: #00072D;
+}
+li {
+    color: #0E6BA8;
 }
 p {
     margin-top: 1rem;
@@ -86,7 +100,7 @@ p {
 }
 .github {
     text-decoration: none;
-    color: #0E6BA8;
+    color: #00072D;
     border: 2px solid #00072D;
     padding: 0.4rem 1.2rem;
     outline: none;
@@ -98,7 +112,7 @@ p {
 }
 .view {
     text-decoration: none;
-    color: #0E6BA8;
+    color: #00072D;
     border: 2px solid #0A2472;
     padding: 0.4rem 1.2rem;
 }
