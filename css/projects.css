@@ -126,6 +126,7 @@ p {
     background-color: #00072D;
     color: #ffffff;
     box-shadow: 0 2px 7px rgba(0, 0, 0, 0.7);
+    transform: translate(50%)
 }
 .footer {
     background-color: #0A2472;
@@ -134,6 +135,9 @@ p {
     padding: 1.5rem;
     color: #ffffff;
     text-align: right;
+}
+ul {
+    list-style: none;
 }
 @media only screen and (max-width: 799px){
     .all_projects {

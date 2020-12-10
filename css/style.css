@@ -104,6 +104,8 @@ h1 {
 .background p {
     text-align: justify;
     color: #00072D;
+    margin-top: 1rem;
+    margin-bottom: 4rem;
 }
 
 img {
@@ -153,16 +155,32 @@ img {
     background: black;
     color: #ffffff;
 }
+.details {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 5px;
+    margin: 1rem 0;
+    
+}
+.skills a, .hobby a, .interest a, .certification a {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.skills, .certification, .interest, .hobby {
+    margin: 1rem 0;
+}
 .skills h3,.certification h3, .interest h3, .hobby h3 {
     color: #0E6BA8;
-    margin-top: 2rem;
-    margin-bottom: 0.5rem;
     text-align: left;
     font-weight:300;
+    margin: 0;
 }
 .skills a, .certification a,.interest a, .hobby a {
     background-color: #EBEBFF;
-    padding: 0.5rem 1.2rem;
+    padding: 0.3rem 1.2rem;
     margin: 0;
     font-size: 0.8rem;
     border-radius: 1.5rem;
@@ -170,10 +188,7 @@ img {
     color: #00072D;
     cursor: pointer;
 }
-.skills a, .certification a{
-    padding: 0.5rem 1.2rem;
-    margin: 0;
-}
+
 .skills a:visited, .certification a:visited, .interest a:visited, .hobby a:visited {
     color: #0A2472;
 }
@@ -228,6 +243,12 @@ img {
     color: #ffffff;
     text-align: right;
 }
+@media only screen and (max-width: 360px){
+    body {
+        display: flex;
+        width: 100%;
+    }
+}
 @media only screen and (max-width: 799px){
    body {
        background-image: none;
@@ -262,12 +283,12 @@ img {
    .intro p {
        font-size: 1rem;
    }
-   .skills, .certification, .interest, .hobby, .projects{
+   .details {
     display: grid;
-    grid-auto-columns: auto;
+    grid-template-columns: repeat(1,1fr);
     grid-gap: 1px;
     text-align: center;
-    width: 80%;
+    width: 70%;
     margin: 0 auto;
     }
     .skills a, .certification a,.interest a, .hobby a{
@@ -277,7 +298,7 @@ img {
         text-align: center;
     }
 }
-@media screen and (min-width: 760px) and (max-width: 1024px){
+@media screen and (min-width: 799px) and (max-width: 1024px){
     .about {
         max-width: 85%;
         text-align: justify;
