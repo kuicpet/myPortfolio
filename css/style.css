@@ -202,6 +202,9 @@ img {
     color: #00072D;
 }
 #contact {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     background-color: #001C55;
     opacity: 0.9;
     width: 100%;
@@ -215,6 +218,12 @@ img {
 }
 .contact p {
     color: #EBEBFF;
+}
+.social span {
+    text-align: center;
+    width: 0;
+    overflow: hidden;
+    vertical-align: middle;
 }
 .contact a {
     text-decoration: none;
