@@ -53,16 +53,23 @@ h2 {
     font-weight: 400;
     margin: 0.5rem;
 }
+
+h3 {
+    text-transform: capitalize;
+}
+
 hr {
     border: 1px solid #A6E1FA;
 }
 .projects {
     width: 100%;
 }
+
 .all_projects {
     display: grid;
     grid-template-columns: repeat(2,1fr);
 }
+
 .project_card {
     position: relative;
     display: flex;
@@ -74,6 +81,12 @@ hr {
     border: 1px solid rgba(0, 0, 0, 0.1);
     cursor: pointer;
     background-color: #ffffff;
+    transition: all 500ms;
+}
+
+.project_card:hover {
+    transform: translateY(-5px);
+    background-color: #A6E1FA;
 }
 
 .details {
@@ -107,9 +120,12 @@ p {
 .github {
     text-decoration: none;
     color: #00072D;
-    border: 2px solid #00072D;
+    border: 1px solid #00072D;
     padding: 0.4rem 1.2rem;
+    border-radius: 5px;
     outline: none;
+    transition: all 500ms;
+    margin: 0 0.5rem;
 }
 .github:hover {
     background-color: #00072D;
@@ -119,14 +135,15 @@ p {
 .view {
     text-decoration: none;
     color: #00072D;
-    border: 2px solid #0A2472;
+    border: 1px solid #0A2472;
     padding: 0.4rem 1.2rem;
+    border-radius: 5px;
+    transition: all 500ms;
 }
 .view:hover {
     background-color: #00072D;
     color: #ffffff;
     box-shadow: 0 2px 7px rgba(0, 0, 0, 0.7);
-    transform: translate(50%)
 }
 .footer {
     background-color: #0A2472;
@@ -138,6 +155,10 @@ p {
 }
 ul {
     list-style: none;
+}
+
+.animation > svg {
+    stroke: #ffffff;
 }
 @media only screen and (max-width: 799px){
     .all_projects {
