@@ -157,9 +157,7 @@ ul {
     list-style: none;
 }
 
-.animation > svg {
-    stroke: #ffffff;
-}
+
 @media only screen and (max-width: 799px){
     .all_projects {
         grid-template-columns: repeat(1,1fr);
