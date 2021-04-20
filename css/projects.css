@@ -16,7 +16,7 @@ body {
     font-size: 1rem;
     max-width: 100%;
     text-align: center;
-    background: #0E6BA8 url("./images/kuic_jxb4la-removebg-preview.png") no-repeat top 3rem left 45rem;
+    background: url("./images/kuic_jxb4la-removebg-preview.png") no-repeat top 3rem left 45rem;
     background-size: cover;
     background-attachment: fixed; 
 }
@@ -34,7 +34,7 @@ main {
     z-index: 200;
 }
 .logo {
-    color: #A6E1FA;
+    color: #00072D;
     text-decoration: none;
     padding: 0.5rem;
     text-transform: uppercase;
@@ -118,13 +118,13 @@ main {
     margin: 1rem 2.5rem;
 }
 .projects {
-    margin-top: 7rem;
+    margin-top: 2rem;
     margin-bottom: 2rem;
     min-height: 100vh;
 }
 h2 {
     font-size: 2rem;
-    color: #A6E1FA;
+    color: #00072D;
     font-weight: 400;
     margin: 0.5rem;
 }
@@ -142,17 +142,19 @@ hr {
 
 .all_projects {
     display: grid;
-    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: repeat(3,1fr);
 }
 
 .project_card {
     position: relative;
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
+    height: auto;
     border-radius: 1rem;
     margin: 1rem;
-    padding: 1rem;
+    padding: 1.5rem;
     border: 1px solid rgba(0, 0, 0, 0.1);
     cursor: pointer;
     background-color: #ffffff;
@@ -162,14 +164,36 @@ hr {
 .project_card:hover {
     transform: translateY(-5px);
     background-color: #A6E1FA;
+    box-shadow: 0px 5px 20px -5px rgba(0, 0, 0, 0.7);
 }
 
+.e_com {
+    background-color: #d4cbe2;
+}
+.social_media {
+    background-color: #eceab8;
+}
+.chow {
+    background-color: #b7c4dd;
+}
+.passgen {
+    background-color: #dfebba;
+}
+.weather {
+    background-color: #efdaed;
+}
+.greenbrain {
+    background-color: #e9eaee;
+}
+.hotel {
+    background-color: #ebc8d9;
+}
 .details {
-    width: 70%;
+    width: 100%;
     text-align: justify;
 }
 .image {
-    width: 30%;
+    width: 100%;
 }
 .icon {
     display: flex;
@@ -195,31 +219,21 @@ p {
 .github {
     text-decoration: none;
     color: #00072D;
-    border: 1px solid #00072D;
     padding: 0.4rem 1.2rem;
     border-radius: 5px;
     outline: none;
     transition: all 500ms;
     margin: 0 0.5rem;
 }
-.github:hover {
-    background-color: #00072D;
-    color: #ffffff;
-    box-shadow: 0 2px 7px rgba(0, 0, 0, 0.7);
-}
+
 .view {
     text-decoration: none;
     color: #00072D;
-    border: 1px solid #0A2472;
     padding: 0.4rem 1.2rem;
     border-radius: 5px;
     transition: all 500ms;
 }
-.view:hover {
-    background-color: #00072D;
-    color: #ffffff;
-    box-shadow: 0 2px 7px rgba(0, 0, 0, 0.7);
-}
+
 .footer {
     background-color: #0A2472;
     opacity: 0.9;
