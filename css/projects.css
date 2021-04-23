@@ -225,7 +225,9 @@ p {
     transition: all 500ms;
     margin: 0 0.5rem;
 }
-
+.github svg:hover {
+    transform: scale(1.2);
+}
 .view {
     text-decoration: none;
     color: #00072D;
@@ -233,7 +235,9 @@ p {
     border-radius: 5px;
     transition: all 500ms;
 }
-
+.view svg:hover {
+    transform: scale(1.2);
+}
 .footer {
     background-color: #0A2472;
     opacity: 0.9;
