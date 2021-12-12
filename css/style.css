@@ -132,7 +132,7 @@ main {
     display: flex;
     align-items: center;
     justify-content: left;
-    padding: 18rem 10rem;
+    padding: 5rem 10rem;
 }
 h1 {
     font-size: 3rem;
@@ -145,18 +145,20 @@ h1 {
 }
 .intro .btn {
     font-size: 1.3rem;
-    padding: 0.3rem 2rem;
-    background-color: #0E6BA8;
-    color: #ffffff;
-    border: none;
+    padding: 0.5rem 3rem;
+    background-color: #ffffff;
+    color: #00072D;
+    border: 2px solid #00072D;
     outline: none;
-    border-radius: 3.125rem;
+    width: 70%;
 }
 .btn:hover {
     background-color: #0A2472;
     transition: all 0.3s ease;
     z-index: 10;
     box-shadow: 4px 4px 10px #001C55;
+    color: #ffffff;
+    border: 2px solid #0A2472;
 }
 .btn:active {
     background-color: #00072D;
