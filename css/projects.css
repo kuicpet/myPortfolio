@@ -47,19 +47,27 @@ main {
     right: 0;
     width: 60px;
     height: 60px;
-    background: #00072D url(../css/images/menu.svg);
+    border-radius: 50%;
+    background: url(../css/images/menu.svg);
     background-size: 30px;
     background-position: center;
     background-repeat: no-repeat;
     z-index: 20;
     cursor: pointer;
+    margin: 2rem;
+  }
+  .toggle:hover {
+      background-color: #e9eaee;
   }
 
 .toggle.active {
-    background: #00072D url(/css/images/x.svg);
+    background: url(/css/images/x.svg);
     background-size: 25px;
     background-position: center;
     background-repeat: no-repeat;
+}
+.toggle.active:hover {
+    background-color: #0A2472;
 }
   /* NAVIGATION */
 .navigation {
