@@ -50,6 +50,25 @@ main {
     text-transform: uppercase;
     transition: all 0.3s ease;
 }
+/*Resume*/
+.resume {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.resume a {
+    text-decoration: none;
+    color: #EBEBFF;
+    background-color: #00072D;
+    padding: 0.625rem 1.25rem;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+}
+.resume a:hover {
+    background-color: #0A2472;
+    transition: all 0.3s ease;
+}
 /* TOGGLE */
 .toggle {
     position: fixed;
@@ -57,13 +76,19 @@ main {
     right: 0;
     width: 60px;
     height: 60px;
-    background: #00072D url(../css/images/menu.svg);
+    border-radius: 50%;
+    background: url(../css/images/menu.svg);
     background-size: 30px;
     background-position: center;
     background-repeat: no-repeat;
     z-index: 20;
     cursor: pointer;
+    margin: 2rem;
   }
+  .toggle:hover {
+      background-color: #e9eaee;
+  }
+
   
   .toggle.active {
     background: #00072D url(/css/images/x.svg);
@@ -171,11 +196,13 @@ h1 {
     justify-content: right;
     max-width: 50%;
     text-align: justify;
-    padding: 6rem 10rem;
+    padding: 3rem;
+    
 }
 .background {
     align-items: center;
     justify-content: center;
+    
 }
 .background h2 {
     color: #0A2472;
@@ -187,6 +214,8 @@ h1 {
     color: #00072D;
     margin-top: 1rem;
     margin-bottom: 4rem;
+    background-color: #ffffff;
+    padding: 2rem;
 }
 
 img {

@@ -154,6 +154,7 @@ hr {
 }
 
 .project_card {
+    color: #ffffff;
     position: relative;
     display: flex;
     flex-direction: column;
@@ -165,8 +166,8 @@ hr {
     padding: 1.5rem;
     border: 1px solid rgba(0, 0, 0, 0.1);
     cursor: pointer;
-    background-color: #ffffff;
     transition: all 500ms;
+    background: linear-gradient(90deg, #4b6cb7 0%, #182848 100%);
 }
 
 .project_card:hover {
@@ -175,31 +176,39 @@ hr {
     box-shadow: 0px 5px 20px -5px rgba(0, 0, 0, 0.7);
 }
 
-.e_com {
-    background-color: #d4cbe2;
+/*.e_com, .greenbrain {
+    background: linear-gradient(90deg, #d53369 0%, #daae51 100%);
 }
-.social_media {
-    background-color: #eceab8;
+.social_media, .chow {
+    background: linear-gradient(90deg, #00d2ff 0%, #3a47d5 100%);
 }
-.chow,
-.movies_app {
-    background-color: #b7c4dd;
+
+.movies_app, .hotel {
+    background: linear-gradient(90deg, #4b6cb7 0%, #182848 100%);
 }
 .passgen {
-    background-color: #dfebba;
+    background: linear-gradient(90deg, #00d2ff 0%, #3a47d5 100%);
 }
 .weather {
-    background-color: #efdaed;
+    color: #ffffff;
+    background: linear-gradient(90deg, #FC466B 0%, #3F5EFB 100%);
 }
-.greenbrain {
-    background-color: #e9eaee;
-}
+
 .hotel {
     background-color: #ebc8d9;
+}*/
+.project_card a {
+    color: orange;
 }
 .details {
     width: 100%;
     text-align: justify;
+}
+.project_card li  {
+    color: #ffffff !important;
+}
+.project_card b {
+    color: #ffffff;
 }
 .image {
     width: 100%;
@@ -260,8 +269,14 @@ ul {
 }
 
 
+
 @media only screen and (max-width: 799px){
     .all_projects {
         grid-template-columns: repeat(1,1fr);
     }
+}
+
+.web3 {
+    color: #ffffff;
+    background: linear-gradient(90deg, #4b6cb7 0%, #182848 100%);
 }
