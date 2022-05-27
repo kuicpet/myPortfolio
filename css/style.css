@@ -24,10 +24,10 @@ body {
     max-width: 100%;
     text-align: center;
     line-height: 1.5;
-    background-image: url(./images/kuic_jxb4la-removebg-preview.png);
+    background-image: url(./images/workflow_Kuicpet.png);
     background-repeat: no-repeat;
-    background-position: top 3rem left 20rem;
-    background-size: cover;
+    background-position: top 3rem right 1rem;
+    background-size: contain;
     background-attachment: fixed;  
 }
 main {
